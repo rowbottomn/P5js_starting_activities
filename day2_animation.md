@@ -35,7 +35,8 @@ First you want to decide what you want to do with a shape, so you can create the
 #### Variables
 *A variable is a value stored in a seperate location than where it's used.  
 It is made to be used in multiple spots at once, making code easier to read and write.  
-Changing the variable changes the value in every spot it's used, instead of changing multiple spots one by one.
+Changing the variable changes the value in every spot it's used, instead of changing multiple spots one by one.  
+Example: 5 people share a bucket with numbers in it. Everybody can see what numbers are in the bucket. If one person takes a number, changes it, and puts it back in the bucket, the number in the bucket changes for all 5 people.
 
 
 
