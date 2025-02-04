@@ -1,4 +1,4 @@
-# Day 1" Drawing and Colors
+# Day 1: Drawing and Colors
 ## Rough Work
 - Drawing commands
 - Explanation of colors
