@@ -5,9 +5,9 @@
     - Conditionals
     - Other
 ### Links
-[Introduction](#introduction)  
-[Instructions](#instructions)  
+[Introduction](#introduction)   
 [Moving](#moving)  
+[Instructions](#instructions)  
 
 
 ### Introduction
