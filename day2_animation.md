@@ -29,7 +29,9 @@ First you want to decide what you want to do with a shape, so you can create the
 
 
 #### Variables
-*A variable is a value stored in a seperate location than where it's used. It is made to be used in multiple spots at once (making code easier to read and write), and changing the variable changes the value in every spot it's used, instead of changing multiple spots one by one.
+*A variable is a value stored in a seperate location than where it's used.  
+It is made to be used in multiple spots at once, making code easier to read and write.  
+Changing the variable changes the value in every spot it's used, instead of changing multiple spots one by one.
 ### Moving
 
 
