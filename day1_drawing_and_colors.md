@@ -14,11 +14,13 @@
 [Next Steps](#next-steps)  
 
 ## Introduction
-Every wanted to make a game? In the next three lessons we will cover the basics to make a simple click game like Whackamole.
+Every wanted to make a game? In the next three lessons we will cover the basics to make a simple click game.  
+While this seems like a simple game, it will have all the elements of a game and hopefully we will be able to get far enough that you will be able to improve upon it.
 
-Today we cover how to make things appear in your game.  We will cover the basics of position, drawing, colors.  
+Today we cover how to make things appear in your game.  We will cover the basics of position, drawing, and colors.  
 
-You will use your skills to make a character like this.
+You will use your skills to make a character like this.  Along the way, we will cover important topics such as the color types and how to position shapes.
+
 
 ### What should it look like?
 Stage 1
@@ -31,6 +33,11 @@ Stage 4
 
 ## Instructions
 
+!Coordinates (especially y)!
+!Hexidecimal!
+!Color pickers!
+!Transparency!
+!Position by center or by corner!
 
 
 ## Explore / Next Steps 
