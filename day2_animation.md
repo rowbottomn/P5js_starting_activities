@@ -3,7 +3,7 @@
 ## Movement
     - Movement logic
     - Conditionals
-    - Other
+    - Other Movement
 ### Links
 [Introduction](#introduction)   
 [Moving](#moving)  
