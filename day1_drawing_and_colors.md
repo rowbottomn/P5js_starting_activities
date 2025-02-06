@@ -1,3 +1,9 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href = "style.css">
+</head>
+<body>
+
 # Day 1: Drawing and Colors
 
 
@@ -32,7 +38,20 @@ Stage 3
 Stage 4
 
 ## Instructions
-
+### Getting Started
+1. Goto the link [https://editor.p5js.org/](https://editor.p5js.org/)
+2. Select `Sign up` in the top right corner.
+3. Have your STEAM Academy partner `login` or `sign up` to make sure your work is not lost.
+4. You should have something that looks like this (hover over the images to see): <img class = "instruction_img" src = "img/1_4.png">   
+  - The play button runs your program.
+  - The setup function runs once at the beginning.
+  - The draw function runs over and over 60 frames per seconds.  
+5. Press play and you should see in the preview section a grey rectangle.  
+### Hello World!
+By tradition, the first thing you should do in a new coding language is say "Hello World!".
+1. Click on the end of line 6 and press `enter`. Type in the command `text("Hello World!", 100, 100 );`  
+2. Press play.  
+You should notice a couple of things. 
 !Coordinates (especially y)!
 !Hexidecimal!
 !Color pickers!
@@ -43,3 +62,5 @@ Stage 4
 ## Explore / Next Steps 
 [P5 Tutorials page](https://p5js.org/tutorials/)
 [P5 Example page](https://p5js.org/examples/)
+</body>
+</html>

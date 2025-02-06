@@ -1,0 +1,23 @@
+:root{
+    --pc-sm:0.8rem;
+    --pc-md:1rem;
+    --pc-lg:1.3rem;
+    --pc-xl:1.5.8rem;
+    --pc-xxl:1.8rem;
+}
+
+
+h1{
+    background: rebeccapurple;
+    font-size: var(--pc-xxl);
+}
+
+.instruction_img{
+    width:50px;
+    float:right;
+}
+
+
+.instruction_img:hover{
+    width:300px;
+}
