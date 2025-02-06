@@ -1,17 +1,39 @@
+/* Variables --------------------------------------------*/
 :root{
     --pc-sm:0.8rem;
     --pc-md:1rem;
     --pc-lg:1.3rem;
     --pc-xl:1.5.8rem;
     --pc-xxl:1.8rem;
+
+    --dk-ppl:rgb(34, 4, 65);
+    --dk-ppl-semi:rgba(34, 4, 65, 0.5);
+    --smoke:rgba(244, 244, 245, 0.8);
+    --smoke-semi:rgba(244, 244, 245, 0.5);
 }
 
+/* Animations ------------------------------------------*/
 
+@keyframes figcaption-slide-up {
+    from {
+        
+    }
+
+    to {
+        
+        transform: translate(0, -50px);
+        height:0;
+        opacity: 0;
+        margin:0;
+        padding:0;
+    }
+
+}
 h1{
-    background: rebeccapurple;
+    background: rgb(34, 4, 65);
     font-size: var(--pc-xxl);
 }
-
+/*
 .instruction_img{
     width:50px;
     float:right;
@@ -20,4 +42,37 @@ h1{
 
 .instruction_img:hover{
     width:300px;
+}*/
+
+img{
+    width:100%;
+}
+
+figure{
+    width:80px;
+    float:right;
+    border: 2px solid var(--smoke);
+    background-color: var(--dk-ppl-semi);
+    padding: 0.5rem;
+}
+
+figcaption{
+    font-size: 0.8rem;
+}
+
+
+figure:hover{
+    width:300px;    
+}
+
+
+figure:hover figcaption {
+   
+    animation-name: figcaption-slide-up;
+    animation-duration: 500ms;
+    animation-fill-mode: forwards;
+}
+
+p{
+    font-size:1.2rem;
 }

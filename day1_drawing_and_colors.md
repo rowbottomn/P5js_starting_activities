@@ -38,20 +38,36 @@ Stage 3
 Stage 4
 
 ## Instructions
+>  When you ***note*** something we will use bullets, when you should ***do*** something we will use numbers to start.
 ### Getting Started
-1. Goto the link [https://editor.p5js.org/](https://editor.p5js.org/)
-2. Select `Sign up` in the top right corner.
-3. Have your STEAM Academy partner `login` or `sign up` to make sure your work is not lost.
-4. You should have something that looks like this (hover over the images to see): <img class = "instruction_img" src = "img/1_4.png">   
-  - The play button runs your program.
-  - The setup function runs once at the beginning.
-  - The draw function runs over and over 60 frames per seconds.  
-5. Press play and you should see in the preview section a grey rectangle.  
+1. Go to the link [https://editor.p5js.org/](https://editor.p5js.org/)
+3. Have your STEAM Academy partner signin to make sure your work is not lost.  They can email your work to you later. Or you can have your parents help you sign up later.
+- You should have something on your screen that looks like this image (hover over the images to see a larger image):<figure>
+    <img class = "instruction_img" src = "img/1_4.png">   
+    <figcaption>Hover over to see a larger image</figcaption>
+</figure>
+### Overview of the P5 Coding Environment.
+- Notice the two buttons at the top left corner.  
+  - The play button runs your program and the stop button stops it.
+- You will see your code beneath the buttons.  
+- Notice there are line numbers beside the lines of code.  
+    - The line numbers will make it easy for you to find errors and help tell you where to type in new lines of code.
+- Notice there are two groups of code that start with the word `function`.
+  - The setup function runs once at the beginning
+    - Right now the setup function just contains making the game canvas.
+  - The draw function runs over and over 60 frames per seconds.
+    - Most of your code will go in here.
+    - Right now it has a line that makes the background grey.  
+1. Press play.
+   - You should see in the preview section a grey rectangle.  
 ### Hello World!
-By tradition, the first thing you should do in a new coding language is say "Hello World!".
-1. Click on the end of line 6 and press `enter`. Type in the command `text("Hello World!", 100, 100 );`  
-2. Press play.  
-You should notice a couple of things. 
+- By tradition, the first thing you should do in a new coding language is say "Hello World!".
+1. Click on the end of line 6 and press `enter` to give yourself a new line to type into. 
+2. Type in the command exactly: `text("Hello World!", 100, 100 );`  
+3. Press play.  
+- Your previe should look like the image on the right (hover over to see a larger image): should notice a couple of things.
+    - The text was white and kind of small.
+    - The text is on the top left.
 !Coordinates (especially y)!
 !Hexidecimal!
 !Color pickers!
