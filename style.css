@@ -29,6 +29,22 @@
     }
 
 }
+
+@keyframes figure-grow {
+    from {
+        
+    }
+
+    to {
+        
+        width:92%;
+    
+        
+        
+    }
+
+}
+
 h1{
     background: rgb(34, 4, 65);
     font-size: var(--pc-xxl);
@@ -53,7 +69,9 @@ figure{
     float:right;
     border: 2px solid var(--smoke);
     background-color: var(--dk-ppl-semi);
+    border-radius:2%;
     padding: 0.5rem;
+    margin-top: -30px;
 }
 
 figcaption{
@@ -62,14 +80,17 @@ figcaption{
 
 
 figure:hover{
-    width:300px;    
+    
+    animation-name: figure-grow;
+    animation-duration: 800ms;
+    animation-fill-mode: forwards; 
 }
 
 
 figure:hover figcaption {
    
     animation-name: figcaption-slide-up;
-    animation-duration: 500ms;
+    animation-duration: 800ms;
     animation-fill-mode: forwards;
 }
 

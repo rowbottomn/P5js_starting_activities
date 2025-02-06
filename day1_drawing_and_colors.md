@@ -38,15 +38,18 @@ Stage 3
 Stage 4
 
 ## Instructions
->  When you ***note*** something we will use bullets, when you should ***do*** something we will use numbers to start.
+>  When you ***note*** something we will start the line with a bullet
+>  When you should ***do*** something we will start the line with a number.
 ### Getting Started
 1. Go to the link [https://editor.p5js.org/](https://editor.p5js.org/)
 3. Have your STEAM Academy partner signin to make sure your work is not lost.  They can email your work to you later. Or you can have your parents help you sign up later.
-- You should have something on your screen that looks like this image (hover over the images to see a larger image):<figure>
-    <img class = "instruction_img" src = "img/1_4.png">   
+- You should have something on your screen that looks like the image on the right:  
+  <figure>
+    <img class = "instruction_img" src = "img/getting_started_0.png">
     <figcaption>Hover over to see a larger image</figcaption>
-</figure>
-### Overview of the P5 Coding Environment.
+</figure>  
+
+###  Overview of the P5 Coding Environment.
 - Notice the two buttons at the top left corner.  
   - The play button runs your program and the stop button stops it.
 - You will see your code beneath the buttons.  
@@ -65,9 +68,30 @@ Stage 4
 1. Click on the end of line 6 and press `enter` to give yourself a new line to type into. 
 2. Type in the command exactly: `text("Hello World!", 100, 100 );`  
 3. Press play.  
-- Your previe should look like the image on the right (hover over to see a larger image): should notice a couple of things.
-    - The text was white and kind of small.
-    - The text is on the top left.
+- Your preview should look like the image on the right (hover over to see a larger image):  
+<figure>
+    <img class = "instruction_img" src = "img/hello_world_0.png">
+    <figcaption>Hover over to see a larger image</figcaption>
+</figure>  
+
+- You should notice a couple of things.  
+    - The text was black and kind of small.
+    - The text is on the top leftish corner.
+### Changing Things
+- We can change the settings that are used to make the text and any other text that we make after.
+  - The way we speak is we say that we ***call functions***.  
+- Functions are code that someone else made for us to use to do some task. 
+- We never see the code behind it but if we know the name and what the function needs to do its job, then it will work.
+    - Kind of like Harry Potter saying a spell.
+      - But its easier and it always works (even if you're Ron Weasly)  
+- Let's first say the spell (I mean call the function) to make the text bigger.
+1. Make a new line just before the text function on line 7. 
+2. Type in the following function exactly: `textSize(40);` and press play again.
+- If successful, your preview should look like this: 
+<figure>
+    <img class = "instruction_img" src = "img/hello_world_0.png">
+    <figcaption>Hover over to see a larger image</figcaption>
+</figure>  
 !Coordinates (especially y)!
 !Hexidecimal!
 !Color pickers!
