@@ -13,12 +13,14 @@
 [Next Steps](#next-steps)  
 
 ## Introduction
-Every wanted to make a game? In the next three lessons we will cover the basics to make a simple click game.  
+Ever wanted to make a game? 
+In the next three lessons we will cover the basics to make a simple click game.  
 While this seems like a simple game, it will have all the elements of a game and hopefully we will be able to get far enough that you will be able to improve upon it.
 
 Today we cover how to make things appear in your game.  We will cover the basics of position, drawing, and colors.  
 
 You will use your skills to make a character like this.  
+
 <figure>
      <img class = "instruction_img" src = "img/1_drawing_your_character_0.png">
      <figcaption>Hover over to see a larger image</figcaption>
@@ -88,7 +90,7 @@ Along the way, we will cover important topics such as the color types and how to
  - After you have completed changing the text size Some other functions you can call to change the text and some other values you could try:
    - `textAlign(RIGHT);`
 
- - Make sure to leave the text aligned 
+ - Make sure to leave the text aligned in the center. 
 ### Positioning the Text
  - Now try let's changing the position of the text.
 1. Change the text line from `text("Hello World", 100, 100);` to `text("Hello World", 300, 100);`
@@ -117,12 +119,10 @@ Along the way, we will cover important topics such as the color types and how to
 
  - Notice the text is white now. 
  - The fill function lets you change the colour in multiple ways.
-    
- 
-    
+     
 1. *One number between 0 and 255* 
       - Example: `fill(100);` 
-      - Changes the colour to a shade of grey between black and white.
+      - Changes the colour to a shade of grey between black (0) and white (255).
       
 2. *Three numbers between 0 and 255* 
    - Example: `fill(100, 50, 150);` 
@@ -157,34 +157,34 @@ Along the way, we will cover important topics such as the color types and how to
 We are going to draw shapes using the functions ellipse, line and rect.  
 All shapes are with the fill color last set by the fill command and with an outline last set by the stroke function.
 
-
-
-StrokeWeight
-NoFill
-stroke
-NoStroke
-
-!Rect!
-!Position by center or by corner!
-!Transparency!
-
+|Function |Example |What It Does|
+|---|---|---|
+| noFill | noFill() | Turns off any filling of shapes or text.|
+| noStroke | noStroke() | Turns off any lines or outlines.|
+| stroke| stroke(255,0,0)| Sets the color for outlines and lines (and turns it back on if it was turned off).|
+| strokeWeight| strokeWeight(1) | Sets the thickness of the lines and outlines in pixels.
+| ellipse | ellipse(100, 200, 50, 40)| Makes a circle or oval at the position set by the first two numbers as x and y. The second pair of numbers if the width and height. |
+| line | line (100, 100, 200, 200)| Draws a line from the first set of x and y position numbers to the second set of x and y position numbers.|
+|rect| rect(100, 200, 50, 40)| Makes a rectangle using the first two points to set the position of the rectangle and the next two numbers are the width and height.|
+|rectMode| rectMode(CENTER)| Sets whether the position of the rectangle is based on the top left corner or the center of the rectangle.|
 
 ### Draw Your Character
-On the right is a little frog character I drew.  
+On the right is a little frog character I drew using the commands above.  
 
 <figure>
      <img class = "instruction_img" src = "img/1_drawing_your_character_0.png">
      <figcaption>Hover over to see a larger image</figcaption>
  </figure>
 
-Draw your own and bring it back next week to show off.
-
+1. Type the commands out and make your own little dude! 
+2. Save the sketch and have your partner download the file to a USB stick.
+3. Later, draw your own and bring it back next week to show off.
  
 ## Explore / Next Steps 
 
 !Make a chart of commands so far???!  
 [P5.js Reference Page](https://p5js.org/reference/)  
 [P5.js Tutorials Page](https://p5js.org/tutorials/)  
-[P5.js Example page](https://p5js.org/examples/)
+[P5.js Examples page](https://p5js.org/examples/)
 </body>
 </html>
