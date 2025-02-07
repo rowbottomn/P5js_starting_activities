@@ -29,7 +29,7 @@ You will use your skills to make a character like this.
 Along the way, we will cover important topics such as the color types and how to position shapes.
 
 ## Instructions
->  When you ***note*** something we will start the line with a bullet
+>  When you should ***note*** something we will start the line with a bullet.  
 >  When you should ***do*** something we will start the line with a number.
 ### Getting Started
 1. Go to the link [https://editor.p5js.org/](https://editor.p5js.org/)
