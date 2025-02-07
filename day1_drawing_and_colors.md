@@ -29,8 +29,8 @@ You will use your skills to make a character like this.
 Along the way, we will cover important topics such as the color types and how to position shapes.
 
 ## Instructions
->  When you should ***note*** something we will start the line with a bullet.  
->  When you should ***do*** something we will start the line with a number.
+>  When you should make a ***note***, the line will start with a bullet.  
+>  When you should ***follow*** an instruction, the line will start with a number.  
 ### Getting Started
 1. Go to the link [https://editor.p5js.org/](https://editor.p5js.org/)
 3. Have your STEAM Academy partner signin to make sure your work is not lost.  They can email your work to you later. Or you can have your parents help you sign up later.
