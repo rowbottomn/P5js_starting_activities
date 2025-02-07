@@ -89,29 +89,99 @@ Stage 4
 
  - Note that the function to increase the font size has to be above the line that make the text.
  - Feel free to mess around with the number and see how big and small you can make the text.
- - Some other functions you can call to change the text and some other values you could try:
-   - `textAlign(CENTER);`
+ - After you have completed changing the text size Some other functions you can call to change the text and some other values you could try:
    - `textAlign(RIGHT);`
+
+ - Make sure to leave 
 ### Positioning the Text
  - Now try let's changing the position of the text.
-1. Change the  text line from `text("Hello World", 100, 100);` to `text("Hello World", 300, 100);`
+1. Change the text line from `text("Hello World", 100, 100);` to `text("Hello World", 300, 100);`
 2. Press play again.
  - Notice the text moved to the right.  
    - The first number represents the sideways or 'x' position of the text.  
    - The second number is the vertical or 'y' position.
    - Notice to make something go down means to increase the 'y' value;
-3. Change the values for x and y until you feel confident you have the text centered in the middle of the screen.
+3. Add a new line above the text command typed exactly: `textAlign(CENTER);`.
+ - This command centers the text around the position.
+4. Change the values for x and y until you feel confident you have the text centered in the middle of the screen but in the top quarter of the screen.
+ - Your text should look similar to this:
+ <figure>
+     <img class = "instruction_img" src = "img/positioning_the_text_0.png">
+     <figcaption>Hover over to see a larger image</figcaption>
+ </figure>
+
 ### Filling and Colors
-- The color used to make the text and fill in shapes is preset as black.    
-!Coordinates (especially y)!
-!Hexidecimal!
-!Color pickers!
-!Transparency!
+- The color used to make the text and fill in shapes is preset as black but can be changed to any color by calling the `fill` function.
+1. Make a new line above the text command and type in `fill(255,255,255);` and press play.
+ - Your text should look similar to the image on the right:
+ <figure>
+     <img class = "instruction_img" src = "img/filling_and_colors_0.png">
+     <figcaption>Hover over to see a larger image</figcaption>
+ </figure>
+
+ - Notice the text is white now. 
+ - The fill function lets you change the colour in multiple ways.
+    
+ 
+    
+1. *One number between 0 and 255* 
+      - Example: `fill(100);` 
+      - Changes the colour to a shade of grey between black and white.
+      
+2. *Three numbers between 0 and 255* 
+   - Example: `fill(100, 50, 150);` 
+   - The 1st number if the amount of red, the 2nd number is the amount of green, the 3rd number is the amount of blue.
+   - They call three values **RGB** which stands for **RED, GREEN, BLUE**.
+   - You can make almost any color the human eye can see.
+
+3. *Four numbers between 0 and 255* 
+   - Example: `fill(100, 50, 150, 100);` 
+   - The first 3 values are RGB, but the 4th number is how transparent the colour is.
+
+|Color| RGB values| Fill Function| Background Function|
+|---|---|---|---|
+|Red|(255, 0, 0)|`fill(255, 0, 0);`|`background(255, 0, 0);`|
+|Green|(0, 255, 0)|`fill(0, 255, 0);`|`background(0, 255, 0);`|
+|Blue|(0, 0, 255)|`fill(0, 0, 255);`|`background(0, 0, 255);`|
+|Yellow|(255, 255, 0)|`fill(255, 255, 0);`|`background(255, 255, 0);`|
+|Cyan|(0, 255, 255)|`fill(0, 255, 255);`|`background(0, 255, 255);`|
+|Magenta|(255, 0, 255)|`fill(255, 0, 255);`|`background(255, 0, 255);`|
+> The background function lets you change the color of the background with the same values.  
+> A tool you can use to find the colour values you want is the Google Color Picker tool. 
+> Pick a color and get the RGB values   
+> [Google Color Picker](https://www.google.com/search?q=colorpicker&sourceid=chrome&ie=UTF-8&safe=active&ssui=on)  
+> Explore the colors and don't work about breaking anything.
+
+### Drawing Shapes
+!Circles!
+
+
+StrokeWeight
+NoFill
+stroke
+NoStroke
+
+!Rect!
 !Position by center or by corner!
+!Transparency!
 
 
+### Draw Your Character
+On the right is a little frog character I drew.  
+
+<figure>
+     <img class = "instruction_img" src = "img/drawing_your_character_0.png">
+     <figcaption>Hover over to see a larger image</figcaption>
+ </figure>
+
+Draw your own and bring it back next week to show off.
+
+ 
 ## Explore / Next Steps 
-[P5 Tutorials page](https://p5js.org/tutorials/)
-[P5 Example page](https://p5js.org/examples/)
+
+!Make a chart of commands so far???!  
+[P5.js Reference Page](https://p5js.org/reference/)  
+[P5.js Tutorials Page](https://p5js.org/tutorials/)  
+[P5.js Example page](https://p5js.org/examples/)
 </body>
 </html>
