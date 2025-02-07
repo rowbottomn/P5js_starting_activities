@@ -26,15 +26,6 @@ You will use your skills to make a character like this.
 
 Along the way, we will cover important topics such as the color types and how to position shapes.
 
-### What should it look like?
-Stage 1
-
-Stage 2
-
-Stage 3 
-
-Stage 4
-
 ## Instructions
 >  When you ***note*** something we will start the line with a bullet
 >  When you should ***do*** something we will start the line with a number.
@@ -97,7 +88,7 @@ Stage 4
  - After you have completed changing the text size Some other functions you can call to change the text and some other values you could try:
    - `textAlign(RIGHT);`
 
- - Make sure to leave 
+ - Make sure to leave the text aligned 
 ### Positioning the Text
  - Now try let's changing the position of the text.
 1. Change the text line from `text("Hello World", 100, 100);` to `text("Hello World", 300, 100);`
@@ -162,7 +153,10 @@ Stage 4
  </figure>
 
 ## Drawing Shapes
-!Circles!
+
+We are going to draw shapes using the functions ellipse, line and rect.  
+All shapes are with the fill color last set by the fill command and with an outline last set by the stroke function.
+
 
 
 StrokeWeight
