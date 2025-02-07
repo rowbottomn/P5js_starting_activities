@@ -18,8 +18,13 @@ While this seems like a simple game, it will have all the elements of a game and
 
 Today we cover how to make things appear in your game.  We will cover the basics of position, drawing, and colors.  
 
-You will use your skills to make a character like this.  Along the way, we will cover important topics such as the color types and how to position shapes.
+You will use your skills to make a character like this.  
+<figure>
+     <img class = "instruction_img" src = "img/1_drawing_your_character_0.png">
+     <figcaption>Hover over to see a larger image</figcaption>
+ </figure>
 
+Along the way, we will cover important topics such as the color types and how to position shapes.
 
 ### What should it look like?
 Stage 1
@@ -38,7 +43,7 @@ Stage 4
 3. Have your STEAM Academy partner signin to make sure your work is not lost.  They can email your work to you later. Or you can have your parents help you sign up later.
 - You should have something on your screen that looks like the image on the right:  
   <figure>
-    <img class = "instruction_img" src = "img/getting_started_0.png">
+    <img class = "instruction_img" src = "img/1_getting_started_0.png">
     <figcaption>Hover over to see a larger image</figcaption>
 </figure>  
 
@@ -63,7 +68,7 @@ Stage 4
 3. Press play.  
 - Your preview should look like the image on the right (hover over to see a larger image):  
 <figure>
-    <img class = "instruction_img" src = "img/hello_world_0.png">
+    <img class = "instruction_img" src = "img/1_hello_world_0.png">
     <figcaption>Hover over to see a larger image</figcaption>
 </figure>  
 
@@ -83,7 +88,7 @@ Stage 4
 2. Type in the following function exactly: `textSize(40);` and press play again.
   - If successful, your preview should look like this: 
  <figure>
-     <img class = "instruction_img" src = "img/hello_world_0.png">
+     <img class = "instruction_img" src = "img/1_changing_things_0.png">
      <figcaption>Hover over to see a larger image</figcaption>
  </figure>
 
@@ -106,7 +111,7 @@ Stage 4
 4. Change the values for x and y until you feel confident you have the text centered in the middle of the screen but in the top quarter of the screen.
  - Your text should look similar to this:
  <figure>
-     <img class = "instruction_img" src = "img/positioning_the_text_0.png">
+     <img class = "instruction_img" src = "img/1_positioning_the_text_0.png">
      <figcaption>Hover over to see a larger image</figcaption>
  </figure>
 
@@ -115,7 +120,7 @@ Stage 4
 1. Make a new line above the text command and type in `fill(255,255,255);` and press play.
  - Your text should look similar to the image on the right:
  <figure>
-     <img class = "instruction_img" src = "img/filling_and_colors_0.png">
+     <img class = "instruction_img" src = "img/1_filling_and_colors_0.png">
      <figcaption>Hover over to see a larger image</figcaption>
  </figure>
 
@@ -151,8 +156,12 @@ Stage 4
 > Pick a color and get the RGB values   
 > [Google Color Picker](https://www.google.com/search?q=colorpicker&sourceid=chrome&ie=UTF-8&safe=active&ssui=on)  
 > Explore the colors and don't work about breaking anything.
+ <figure>
+     <img class = "instruction_img" src = "img/1_1_color_picker_0.png">
+     <figcaption>Hover over to see a larger image</figcaption>
+ </figure>
 
-### Drawing Shapes
+## Drawing Shapes
 !Circles!
 
 
