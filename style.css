@@ -79,21 +79,21 @@ figcaption{
 }
 
 
-figure:hover{
+figure:hover {
     
     animation-name: figure-grow;
     animation-duration: 800ms;
     animation-fill-mode: forwards; 
 }
 
-
+/*
 figure:hover figcaption {
    
     animation-name: figcaption-slide-up;
     animation-duration: 800ms;
     animation-fill-mode: forwards;
 }
-
+*/
 p{
     font-size:1.2rem;
 }

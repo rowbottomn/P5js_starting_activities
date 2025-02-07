@@ -157,7 +157,7 @@ Stage 4
 > [Google Color Picker](https://www.google.com/search?q=colorpicker&sourceid=chrome&ie=UTF-8&safe=active&ssui=on)  
 > Explore the colors and don't work about breaking anything.
  <figure>
-     <img class = "instruction_img" src = "img/1_1_color_picker_0.png">
+     <img class = "instruction_img" src = "img/1_color_picker_0.png">
      <figcaption>Hover over to see a larger image</figcaption>
  </figure>
 
@@ -179,7 +179,7 @@ NoStroke
 On the right is a little frog character I drew.  
 
 <figure>
-     <img class = "instruction_img" src = "img/drawing_your_character_0.png">
+     <img class = "instruction_img" src = "img/1_drawing_your_character_0.png">
      <figcaption>Hover over to see a larger image</figcaption>
  </figure>
 
