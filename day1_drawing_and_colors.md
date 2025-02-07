@@ -7,13 +7,6 @@
 # Day 1: Drawing and Colors
 
 
-
-## Brainstorming / Rough Work :warning: Eventually Remove This Part:warning:
-
-- Drawing commands
-- Explanation of colors
-- How to find specific colors
-
 ## Quick Links
 [Progress Pics](#what-should-it-look-like)  
 [Instructions](#instructions)  
@@ -84,14 +77,32 @@ Stage 4
 - We never see the code behind it but if we know the name and what the function needs to do its job, then it will work.
     - Kind of like Harry Potter saying a spell.
       - But its easier and it always works (even if you're Ron Weasly)  
-- Let's first say the spell (I mean call the function) to make the text bigger.
+- Let's first say the spell (I mean call the function) to make the text bigger.  
+
 1. Make a new line just before the text function on line 7. 
 2. Type in the following function exactly: `textSize(40);` and press play again.
-- If successful, your preview should look like this: 
-<figure>
-    <img class = "instruction_img" src = "img/hello_world_0.png">
-    <figcaption>Hover over to see a larger image</figcaption>
-</figure>  
+  - If successful, your preview should look like this: 
+ <figure>
+     <img class = "instruction_img" src = "img/hello_world_0.png">
+     <figcaption>Hover over to see a larger image</figcaption>
+ </figure>
+
+ - Note that the function to increase the font size has to be above the line that make the text.
+ - Feel free to mess around with the number and see how big and small you can make the text.
+ - Some other functions you can call to change the text and some other values you could try:
+   - `textAlign(CENTER);`
+   - `textAlign(RIGHT);`
+### Positioning the Text
+ - Now try let's changing the position of the text.
+1. Change the  text line from `text("Hello World", 100, 100);` to `text("Hello World", 300, 100);`
+2. Press play again.
+ - Notice the text moved to the right.  
+   - The first number represents the sideways or 'x' position of the text.  
+   - The second number is the vertical or 'y' position.
+   - Notice to make something go down means to increase the 'y' value;
+3. Change the values for x and y until you feel confident you have the text centered in the middle of the screen.
+### Filling and Colors
+- The color used to make the text and fill in shapes is preset as black.    
 !Coordinates (especially y)!
 !Hexidecimal!
 !Color pickers!
